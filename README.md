@@ -10,7 +10,7 @@ description: Returns a information list of applications installed on the system.
 
 ## Installation
 
-    cordova plugin add "path/cordova-plugin-applications"
+    cordova plugin add "https://github.com/danijelwebmobile/cordova-plugin-applications.git"
 
 ### Example
 
