@@ -1,0 +1,58 @@
+{
+  "_from": "cordova-plugin-applications",
+  "_id": "cordova-plugin-applications@0.1.7",
+  "_inBundle": false,
+  "_integrity": "sha1-ELdlr3CG8P0j2mZ31U6o5MT/VRI=",
+  "_location": "/cordova-plugin-applications",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-applications",
+    "name": "cordova-plugin-applications",
+    "escapedName": "cordova-plugin-applications",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-applications/-/cordova-plugin-applications-0.1.7.tgz",
+  "_shasum": "10b765af7086f0fd23da6677d54ea8e4c4ff5512",
+  "_spec": "cordova-plugin-applications",
+  "_where": "E:\\parkdia\\DevicesInfo",
+  "author": {
+    "name": "Fernando Arce"
+  },
+  "bugs": {
+    "url": "https://github.com/fbsanches/cordova-plugin-applications/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-applications",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "A simple plugin that will return a list of installed applications or all on your smartphone.",
+  "homepage": "https://github.com/fbsanches/cordova-plugin-applications#readme",
+  "keywords": [
+    "cordova",
+    "packagemanager",
+    "cordova-android",
+    "ecosystem:cordova",
+    "Installed-package",
+    "package-Info",
+    "Apps-Info"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-applications",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbsanches/cordova-plugin-applications.git"
+  },
+  "version": "0.1.7"
+}
