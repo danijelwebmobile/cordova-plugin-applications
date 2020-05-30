@@ -14,6 +14,7 @@ description: Returns a information list of applications installed on the system.
 
 ### Example
 
+#### Ionic typescript example
     declare const applications: any;
 
     //Success Callback Receive
@@ -27,6 +28,19 @@ description: Returns a information list of applications installed on the system.
     }
 
     applications.show(successCallback, errorCallback);
+
+#### Cordova javascript example
+    function successCallback(e) {
+        document.getElementById('divApps').innerHTML += JSON.stringify(e);
+    }
+
+    //Error Callback Receive
+    function errorCallback(e) {
+        alert('Error');
+    }
+
+    window.plugins.packagemanager.show(successCallback, errorCallback);
+
 
 #### Parameters
 
